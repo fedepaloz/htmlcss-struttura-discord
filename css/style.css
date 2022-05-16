@@ -5,8 +5,9 @@ body {
 }
 
 header {
-    height: 700px;
+    min-height: 700px;
     background-color: #3161E0;
+    
 }
 
 nav {
@@ -34,3 +35,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+
+.header-text{text-align: center; background-color: azure;
+width: 700px;min-height:500px;margin: 0 auto;font-size: 30px;}
+
+.download-button{background-color: blueviolet;display:flex;justify-content: space-around;}
