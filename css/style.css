@@ -1,5 +1,36 @@
-body{margin: 0;
-padding: 0;
-box-sizing: border-box;}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-header{height: 700px;background-color: #3161E0;}
+header {
+    height: 700px;
+    background-color: #3161E0;
+}
+
+nav {
+    background-color: aquamarine;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(104, 104, 228);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-menu {
+    width: 500px;
+    height: 40px;
+    background-color: rgb(178, 77, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
